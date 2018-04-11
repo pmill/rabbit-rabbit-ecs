@@ -1,0 +1,21 @@
+{
+  "name": "pmill/rabbit-rabbit-ecs",
+  "description": "An AWS ECS integration for pmill/rabbit-rabbit",
+  "keywords": ["php", "rabbitmq", "rules", "management", "api", "aws", "ecs"],
+  "homepage": "https://github.com/pmill/rabbit-rabbit-ecs",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "pmill",
+      "email": "dev.pmill@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "pmill/rabbit-rabbit": "^0.1.0",
+    "aws/aws-sdk-php": "^3.54"
+  },
+  "autoload": {
+    "psr-4": {"pmill\\RabbitRabbitEcs\\": "src/"}
+  }
+}
