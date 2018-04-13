@@ -10,7 +10,7 @@ use pmill\RabbitRabbitEcs\EcsRule;
 require __DIR__ . '/../vendor/autoload.php';
 
 $config = new RabbitConfig([
-    'baseUrl' => 'localhost:15673',
+    'baseUrl' => 'localhost:15672',
     'username' => 'guest',
     'password' => 'guest',
 ]);
